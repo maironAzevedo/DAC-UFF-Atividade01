@@ -246,7 +246,9 @@ public class HelloServlet extends HttpServlet {
                 "           </p>" +
                 "       </div>" +
                 "   </body>" +
-                "<footer> <p>Desenvolvido por Paulo Augusto</p> </footer>" +
+                "</br>" +
+                "</br>" +
+                "<footer> <p>Desenvolvido por Mairon Azevedo</p> </footer>" +
                 "</html>"
             );
         }
@@ -259,7 +261,7 @@ public class HelloServlet extends HttpServlet {
      */
     @Override
     public String getServletInfo() {
-        return "Desenvolvido por Paulo Augusto de Macena";
+        return "Desenvolvido por Mairon Azevedo";
     }// </editor-fold>
 
 }
